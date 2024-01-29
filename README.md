@@ -79,3 +79,9 @@ To test your trained model place it in a directory called ```ckpt/``` inside the
 ```
 CUDA_VISIBLE_DEVICES=GPU_ID python main.py --hidden_dim 512 --n_encoder_layer 2 --n_decoder_layer 2 --n_query 20 --seg --task long --pos_emb --anticipate --max_pos_len 3100 --sample_rate 6 --dataset 50salads --predict --mode=train --split=SPLIT_NUM
 ```
+
+## License
+
+Copyright (c) 2023 Sarthak Bhagat, Samuel Li, Joseph Campbell, Yaqi Xie, Katia Sycara, Simon Stepputtis
+
+For license information, see the license.
