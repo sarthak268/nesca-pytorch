@@ -16,9 +16,7 @@ Videos and dataset available on the website: [https://sarthak268.github.io/NeSCA
 
 ## Approach
 
-<center>
-<img src="media/overview.png" alt="Approach Figure" width="30%" height="30%">
-</center>
+<img src="media/overview.png" alt="Approach Figure" width="80%" height="80%">
 
 <!-- ## Citation
 
