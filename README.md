@@ -72,7 +72,7 @@ To train the baseline model without NeSCA, you can turn the arguments `use_gsnn`
 
 ## Testing
 
-You can find the pre-trained weights for our model [here](https://drive.google.com/drive/folders/1ezfe2V_buwmu21F4DK1xdDVnJaI_dpsp?usp=sharing). <br>
+You can find the pre-trained weights for our model trained on the 50Salads dataset [here](https://drive.google.com/drive/folders/1ezfe2V_buwmu21F4DK1xdDVnJaI_dpsp?usp=sharing). <br>
 To test your trained model place it in a directory called ```ckpt/``` inside the home directory and run the following command. 
 
 ```
