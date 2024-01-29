@@ -2,6 +2,12 @@
 
 This is a PyTorch implementation of the paper "<i>Let Me Help You!</i> Neuro-Symbolic Short-Context Action Anticipation".
 
+|📑 Original Paper|📰 Project Page|🌀 Demo|⚡ Full Video
+|:-:|:-:|:-:|:-:|
+[Paper]() | [Project Page](https://sarthak268.github.io/NeSCA/) | [Demo Video]() | [Full Video]()
+
+<img src="media/overview.png" alt="Approach Figure" width="50%" height="50%">
+
 ## Abstract
 
 In an era where robots become available to the general public, the applicability of assistive robotics extends across numerous aspects of daily life, including in-home robotics.
@@ -14,22 +20,16 @@ Through this approach, we achieve an up to 9% improvement on two common action a
 After predicting a sequence of future actions, our system selects an appropriate assistive action that is subsequently executed on a robot for a joint salad preparation task between a human and a robot. 
 Videos and dataset available on the website: [https://sarthak268.github.io/NeSCA/](https://sarthak268.github.io/NeSCA/).
 
-## Approach
-
-<img src="media/overview.png" alt="Approach Figure" width="50%" height="50%">
-
-<!-- ## Citation
+## Citation 
 
 In case you find our work useful, consider citing:
 ```
 @article{Bhagat2024NeSCA,
   title={Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation},
-  author={Sarthak Bhagat and Simon Stepputtis and Joseph Campbell and Katia P. Sycara},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2306.09482}
+  author={Sarthak Bhagat and Samuel Li and Joseph Campbell and Yaqi Xie and Katia Sycara and Simon Stepputtis},
+  year={2024},
 }
-``` -->
+``` 
 
 ## Index
 
@@ -59,7 +59,7 @@ To leverage the trained model on our real-world setup, we finetune our model on 
 
 ## Training 
 
-In order to train our model on the 50Salads dataset, run the following command:
+To train our model on the 50Salads dataset, run the following command:
 ```
 CUDA_VISIBLE_DEVICES=GPU_ID python main.py --task long --seg --anticipate --pos_emb --n_query 20 --n_encoder_layer 2 --n_decoder_layer 2 --batch_size 8 --hidden_dim 512 --workers 1 --dataset 50salads --max_pos_len 3100 --sample_rate 6 --epochs 70 --mode=train --input_type=i3d_transcript --split=SPLIT_NUM
 ```
@@ -73,7 +73,7 @@ To train the baseline model without NeSCA, you can turn the arguments `use_gsnn`
 
 ## Testing
 
-You can find the pretrained weights for our model [here](https://drive.google.com/drive/folders/1ezfe2V_buwmu21F4DK1xdDVnJaI_dpsp?usp=sharing). <br>
+You can find the pre-trained weights for our model [here](https://drive.google.com/drive/folders/1ezfe2V_buwmu21F4DK1xdDVnJaI_dpsp?usp=sharing). <br>
 To test your trained model place it in a directory called ```ckpt/``` inside the home directory and run the following command. 
 
 ```
