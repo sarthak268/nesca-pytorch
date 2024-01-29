@@ -18,7 +18,6 @@ To provide sufficient context in such scenarios, our proposed method analyzes th
 We integrate this knowledge into a transformer-based action anticipation architecture, which alters the attention mechanism between different visual features by either boosting or attenuating the attention between them. 
 Through this approach, we achieve an up to 9% improvement on two common action anticipation benchmarks, namely <i>50Salads</i> and <i>Breakfast</i>.
 After predicting a sequence of future actions, our system selects an appropriate assistive action that is subsequently executed on a robot for a joint salad preparation task between a human and a robot. 
-Videos and dataset available on the website: [https://sarthak268.github.io/NeSCA/](https://sarthak268.github.io/NeSCA/).
 
 ## Citation 
 
