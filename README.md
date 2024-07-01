@@ -1,6 +1,6 @@
 # Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation
 
-This is a PyTorch implementation of the paper "<i>Let Me Help You!</i> Neuro-Symbolic Short-Context Action Anticipation".
+This is a PyTorch implementation of the paper "<i>Let Me Help You!</i> Neuro-Symbolic Short-Context Action Anticipation". This work has been accepted the [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l), 2024.
 
 |📑 Original Paper|📰 Project Page|🌀 Demo|⚡ Full Video
 |:-:|:-:|:-:|:-:|
