@@ -63,11 +63,6 @@ To train our model on the 50Salads dataset, run the following command:
 CUDA_VISIBLE_DEVICES=GPU_ID python main.py --task long --seg --anticipate --pos_emb --n_query 20 --n_encoder_layer 2 --n_decoder_layer 2 --batch_size 8 --hidden_dim 512 --workers 1 --dataset 50salads --max_pos_len 3100 --sample_rate 6 --epochs 70 --mode=train --input_type=i3d_transcript --split=SPLIT_NUM
 ```
 
-For the Breakfast dataset, run the following command:
-```
-command here
-```
-
 To train the baseline model without NeSCA, you can turn the arguments `use_gsnn` and `kg_attn` as False in `opts.py`. Alternatively, you can use the weights provided [here](https://github.com/gongda0e/FUTR).
 
 ## Testing
@@ -78,6 +73,10 @@ To test your trained model place it in a directory called ```ckpt/``` inside the
 ```
 CUDA_VISIBLE_DEVICES=GPU_ID python main.py --hidden_dim 512 --n_encoder_layer 2 --n_decoder_layer 2 --n_query 20 --seg --task long --pos_emb --anticipate --max_pos_len 3100 --sample_rate 6 --dataset 50salads --predict --mode=train --split=SPLIT_NUM
 ```
+
+## Resources 
+
+This implementation has been greatly inspired by the [codebase](https://github.com/gongda0e/FUTR) for the [FUTR paper](https://arxiv.org/abs/2205.14022).
 
 ## License
 
