@@ -23,11 +23,13 @@ After predicting a sequence of future actions, our system selects an appropriate
 
 In case you find our work useful, consider citing:
 ```
-@article{Bhagat2024NeSCA,
-  title={Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation},
-  author={Sarthak Bhagat and Samuel Li and Joseph Campbell and Yaqi Xie and Katia Sycara and Simon Stepputtis},
+@ARTICLE{BhagatNeSCA,
+  author={Bhagat, Sarthak and Li, Samuel and Campbell, Joseph and Xie, Yaqi and Sycara, Katia and Stepputtis, Simon},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation}, 
   year={2024},
-}
+  pages={1-8},
+  doi={10.1109/LRA.2024.3421848}}
 ``` 
 
 ## Index
