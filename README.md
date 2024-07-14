@@ -42,6 +42,7 @@ In case you find our work useful, consider citing:
 
 ## Setup
 
+This system was tested on Ubuntu 22.04.
 In order to build a ```conda``` environment for running our model, run the following command:
 ```
 conda env create -f environment.yml
