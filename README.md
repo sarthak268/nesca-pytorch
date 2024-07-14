@@ -72,7 +72,7 @@ To train the baseline model without NeSCA (i.e. FUTR), you can turn the argument
 ## Testing
 
 You can find the pre-trained weights for our model trained on the 50Salads dataset [here](https://drive.google.com/drive/folders/1ezfe2V_buwmu21F4DK1xdDVnJaI_dpsp?usp=sharing). <br>
-To obtain the results mentioned in the paper, your trained models must be places in a directory called ```ckpt/``` inside the home directory and then run the following command. 
+To obtain the results mentioned in the paper, your trained models must be placed in a directory called ```ckpt/``` inside the home directory and then run the following command. 
 
 ```
 CUDA_VISIBLE_DEVICES=GPU_ID python main.py --hidden_dim 512 --n_encoder_layer 2 --n_decoder_layer 2 --n_query 20 --seg --task long --pos_emb --anticipate --max_pos_len 3100 --sample_rate 6 --dataset 50salads --predict --mode=train --split=SPLIT_NUM
