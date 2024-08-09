@@ -2,9 +2,9 @@
 
 This is a PyTorch implementation of the paper "<i>Let Me Help You!</i> Neuro-Symbolic Short-Context Action Anticipation". This work has been accepted to the [IEEE Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l), 2024.
 
-|📑 Original Paper|📰 Project Page|🌀 Demo|⚡ Full Video
+|📑 Original Paper|📰 Project Page
 |:-:|:-:|:-:|:-:|
-[Paper]() | [Project Page](https://sarthak268.github.io/NeSCA/) | [Demo Video]() | [Full Video]()
+[Paper](https://ieeexplore.ieee.org/document/10582423) | [Project Page](https://sarthak268.github.io/NeSCA/) 
 
 <img src="media/overview.png" alt="Approach Figure" width="50%" height="50%">
 
